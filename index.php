@@ -20,3 +20,5 @@ $data = $database->select('clientes', '*');
 
 print_r($data);
 
+echo "Sucesso!";
+
