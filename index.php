@@ -18,7 +18,11 @@ $database = new Medoo([
 // Buscar dados
 $data = $database->select('clientes', '*');
 
-print_r($data);
 
-echo "Sucesso!";
+/* print_r($data); */
+echo "<pre>";
+
+echo json_encode($data);
+
+
 
